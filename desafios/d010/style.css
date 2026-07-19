@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(fontes/idroid.otf) format('opentype');
+    src: url(font/idroid.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ a:hover {
     color: var(--blue-12);
 }
 
-a.link-externo::after {
+a.external-link::after {
     content: ' \1F517';
 }
 
@@ -211,9 +211,12 @@ footer > strong {
     color: var(--gray-1);
 }
 
+footer a {
+    color: var(--gray-1);
+    text-decoration: none;
+}
 
-
-
-
-
-p:
+footer a:hover {
+    color: var(--gray-1);
+    text-decoration: underline;
+}
