@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <!--Até largunra de 750px, usa a imagem p-->
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <!--Até largunra de 1050px, usa a imagem m-->
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <!--Largura maior que 1050px, usa a imagem g-->
+        <img src="img/foto-g.png" alt="Fundo verde com letra g em maiusculo centralizada">
+    </picture>
+    <h2>Reproduzindo áudios</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Taught Her How To Leave - Bill Douglas.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

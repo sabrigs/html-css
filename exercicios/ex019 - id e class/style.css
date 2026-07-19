@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+HTML -> id == CSS -> #
+HTML -> class == CSS -> .
+
+id: único
+class: mais de um
+
+definir class com nomes semânticos
+*/
+
+body {
+    background-color: #fff7e2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #523b00;
+}
+
+h1#title {
+    text-align: center;
+    background-color: rgb(251, 231, 160);
+}
+
+h2 {
+    color: #00578d;
+}
+
+.basico {
+    color: #028d00;
+}
+
+.avancado {
+    color: #8d0000;
+}
+
+.intermediario {
+    color: #00578d;
+}
+
+.destaque {
+    background-color: #8c00ff4f;
+}

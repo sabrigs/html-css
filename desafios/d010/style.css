@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Geist:ital,wght@0,100..900;1,100..900&family=Gochi+Hand&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Colors */
+    --blue-1: #fbfdff;
+    --blue-2: #f4faff;
+    --blue-3: #e9f3ff;
+    --blue-4: #d9edff;
+    --blue-5: #c7e3ff;
+    --blue-6: #b2d6ff;
+    --blue-7: #97c5f8;
+    --blue-8: #6eaef3;
+    --blue-9: #0588f0;
+    --blue-10: #007ae4;
+    --blue-11: #0074da;
+    --blue-12: #003463;
+    --gray-1: #fcfcfd;
+    --gray-2: #f9f9fb;
+    --gray-3: #eff0f3;
+    --gray-4: #e7e8ec;
+    --gray-5: #e0e1e6;
+    --gray-6: #d8d9e0;
+    --gray-7: #cdced7;
+    --gray-8: #b9bbc6;
+    --gray-9: #8b8d98;
+    --gray-10: #80828d;
+    --gray-11: #62636c;
+    --gray-12: #1e1f24;
+    
+    /* Fonts */
+    --font-default: Arial, Helvetica, sans-serif;
+    --font-accent: Android, Arial, Helvetica, sans-serif;
+}
+
+/* Globais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--blue-12);
+}
+
+a.link-externo::after {
+    content: ' \1F517';
+}
+
+p {
+    text-indent: 24px;
+    font-family: var(--font-default);
+    line-height: 1.5em;
+}
+
+/* Grouping Tags */
+main img.wide {
+    width: 100%;
+    margin-block: 16px;
+}
+
+main img.small {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--blue-11), var(--blue-9));
+    text-align: center;
+    color: white;
+    padding: 16px 24px;
+}
+
+header > h1 {
+    text-shadow: 1px 2px #0000007d;
+    color: white;
+    font-family: Bebas Neue, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header > p {
+    text-shadow: 1px 1px #0000007d;
+}
+
+nav {
+    background-color: var(--blue-11);
+    padding: 24px 24px;
+}
+
+nav > a {
+    color: var(--gray-1);
+    text-decoration: none;
+    font-weight: 800;
+    text-align: left;
+    font-family: var(--font-default);
+    padding: 16px 12px;
+    transition-duration: .2s;
+    border-radius: 8px;
+}
+
+nav > a:hover {
+    background-color: var(--blue-12);
+    color: var(--gray-1);
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+main {
+    background-color: var(--blue-6);
+    padding: 0px 8px 16px 8px;
+}
+
+article {
+    background-color: var(--gray-1);
+    padding: 24px 16px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.19);    
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+article strong {
+    color: var(--blue-10);
+}
+
+article a {
+    color: var(--blue-11);
+    background-color: var(--blue-5);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+article h1 {
+    color: var(--blue-12);
+    font-family: var(--font-accent);
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+article h2 {
+    background-image: linear-gradient(to left, var(--gray-1), var(--blue-5));
+    color: var(--blue-12);
+    font-family: var(--font-accent);
+    text-transform: uppercase;
+    padding-left: 8px;
+    margin-block: 16px;
+    font-weight: normal;
+}
+
+div.video {
+    background-color: var(--blue-11);
+    margin: 16px -16px;
+    padding: 24px;
+}
+
+aside {
+    margin-bottom: 16px;
+}
+
+aside div.header {
+    background-color: var(--blue-9);
+    border-radius: 8px 8px 0px 0px;
+    padding: 16px;
+}
+
+aside h3 {
+    font-family: var(--font-default);
+    color: var(--gray-1);
+}
+
+aside div.body {
+    background-color: var(--blue-4);
+    padding: 16px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+aside li::before {
+    content: "\2714  ";
+}
+
+aside ul {
+    font-family: var(--font-default);
+    list-style-type: none;
+    margin-block: 16px; 
+    columns: 2;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: var(--blue-12);
+    color: var(--gray-1);
+    padding: 16px;
+    text-align: center;
+}
+
+footer > strong {
+    color: var(--gray-1);
+}
+
+
+
+
+
+
+p:

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            text-align: center;
+            border: 1px solid black;
+            display: block;
+        }
+
+        div:hover {
+            background-color: blue;
+        }
+
+        div > p {
+            display: block;
+        }
+
+        div:hover > p {
+            display: none;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Saiba mais</p>
+    </div>
+    <div>
+        <p>Saiba mais</p>
+    </div>
+    <div>
+        <p>Saiba mais</p>
+    </div>
+</body>
+</html>
