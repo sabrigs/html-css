@@ -1,17 +1,3 @@
-# Arquivos do Sistema Operacional
 .DS_Store
-
-# Pastas de Editores de Código
 .vscode/
 .idea/
-*.sublime-workspace
-
-# Arquivos de log e temporários
-*.log
-*.swp
-*~
-
-# Pastas comuns de build
-node_modules/
-dist/
-# build/
