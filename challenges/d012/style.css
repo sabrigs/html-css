@@ -1,0 +1,123 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* Fonts */
+    --font-default: 'Barrio', Arial, Helvetica, sans-serif;
+    --font-accent: 'Noto Serif', 'Times New Roman', Times, serif;
+    
+    /* Colors */
+    --color-text: #1C1C1C;
+    --color-bg: #FEF8EE;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-default);
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+header {
+    background-color: var(--color-bg);
+    text-align: left;
+    padding: 56px 24px;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+header h1 {
+    font-family: var(--font-default);
+    color: var(--color-text);
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+header p {
+    padding-block: 8px;
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 700;
+}
+
+article p {
+    line-height: 170%;
+    font-size: 1.5em;
+    padding-bottom: 24px;
+}
+
+section.default {
+    padding: 32px 24px;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+section.moviment {
+    background-image: url('imagens/patter-white.svg');
+    background-repeat: repeat;
+    background-color: #1C1C1C;
+    background-attachment: fixed;
+    position: relative;
+    padding-block: 56px;
+    min-height: 330px;
+}
+
+img.adorm-bottom {
+    position: absolute;
+    bottom: -1%;
+    right: 10%;
+}
+
+img.adorm-top {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+div.group {
+    position: relative;
+    max-width: 800px;
+    padding-inline: 24px;
+    margin-inline: auto;
+}
+
+section p.block-contrast {
+    background-color: #030303ae;
+    max-width: 350px;
+    padding: 24px;
+    color: var(--color-bg);
+    border-radius: 8px;
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+footer {
+    background-color: var(--color-text);
+    text-align: center;
+    padding: 24px 16px;
+}
+
+footer p {
+    color: var(--color-bg);
+    font-family: var(--font-accent);
+}
+
+footer a {
+    color: var(--color-bg);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
