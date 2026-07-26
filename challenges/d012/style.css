@@ -19,7 +19,8 @@
     font-weight: normal;
 }
 
-body {
+html, body {
+    min-height: 100vh;
     background-color: var(--color-bg);
 }
 
@@ -92,7 +93,7 @@ div.group {
 
 section p.block-contrast {
     background-color: #030303ae;
-    max-width: 350px;
+    display: inline-block;
     padding: 24px;
     color: var(--color-bg);
     border-radius: 8px;
