@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My sociais</title>
     <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <section class="content">
-        <div class="div-iframe">
-            <iframe src="https://sabrigs.github.io/" frameborder="0">
-
+    <main>
+        <section id="section-screen">
+            <iframe src="home.html" frameborder="0" name="screen" class="iframe-screen" scrolling="yes">
+                This browser doesn't support iframe. Please, try another one.
             </iframe>
-        </div>
-        <img src="img/frame.png" alt="" class="img-frame">
-    </section>
-    <section class="div-footer">
-        <section class="socials-group">
-            <img src="img/github-default.svg" alt="" class="img-keyboard">
-            <img src="img/linkedin-default.svg" alt="" class="img-keyboard">
-            <img src="img/youtube-default.svg" alt="" class="img-keyboard">
         </section>
-        <p>Made by Sabris</p>
-    </section>
+        <section id="section-social">
+            <a href="home.html" target="screen">
+                <img src="img/home-icon.png" alt="">
+            </a><br>
+            <a href="github-page.html" target="screen">
+                <img src="img/github-icon.png" alt="">
+            </a><br>
+            <a href="linkedin-page.html" target="screen">
+                <img src="img/linkedin-icon.png" alt="">
+            </a><br>
+            <a href="youtube-page.html" target="screen">
+                <img src="img/youtube-icon.png" alt="">
+            </a>
+        </section>
+    </main>
 </body>
 </html>
