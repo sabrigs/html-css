@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Print */
+@media print {
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and  (max-width: 992px) {
+    body {
+        background-image: url(../img/back-tablet.jpg);
+    }
+
+    #pc {display: none;}
+    #tablet {display: block;}
+    #phone {display: none;}
+    #print {display: none;}
+    #tv {display: none;}
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../img/back-pc.jpg);
+    }
+
+    #pc {display: block;}
+    #tablet {display: none;}
+    #phone {display: none;}
+    #print {display: none;}
+    #tv {display: none;}
+}
+
+/* Large screens */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../img/back-tv.jpg);
+    }
+
+    #pc {display: none;}
+    #tablet {display: none;}
+    #phone {display: none;}
+    #print {display: none;}
+    #tv {display: block;}
+}
