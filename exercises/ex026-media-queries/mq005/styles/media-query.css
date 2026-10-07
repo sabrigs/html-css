@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* Tablet */
+@media screen and (min-width: 768px) {    
+    #menu-itens {
+        position: relative;
+        z-index: 0;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+}
